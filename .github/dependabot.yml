@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 1. GitHub Actions-ийн хувилбаруудыг долоо хоног бүр шалгах
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # 2. Maven (pom.xml) сангуудын хувилбарыг долоо хоног бүр шалгах
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
